@@ -4,7 +4,7 @@
 Для приглашение на собеседование выполните, пожалуйста, два небольших задания по javascript и верскте. Результатом задания должен являться архив, включающий в себя все необходимые файлы, полностью демонстрирующие обе решенные задачи. Архив необходимо отправить на job@uprock.pro.
 
 # Javascript
-Необходимо разработать frontend для простого блога. Это должно быть SPA, реализованное с помощью Backbone.
+Необходимо разработать frontend простого блога. Это должно быть SPA, реализованное с помощью Backbone.
 
 Каждый пост блога может содержать название, текст и прикрепленное изображение. Комментарии - только текстовые.
 
@@ -42,3 +42,7 @@ docker run -d --name=lemp \
 ```
 GET http://localhost:8000/api/v1/comment
 ```
+
+# Верстка
+
+![Верстка: задание](https://bruteg-bn1306.files.1drv.com/y2mc5K3MxbV9sgNDY084sJo9VLTWLffION9YbkvruAs1eNgNY8La_D6xfgatJXjRTitxHh3WUy5CwFzZd5wBO4esXDjYsa7KUKBMwZNXpfvCWsgxoAhjIrK3epO92zVXXfP/FrontEndTestGif-1.gif?psid=1 "Верстка: задание")
