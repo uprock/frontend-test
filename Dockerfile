@@ -72,6 +72,11 @@ RUN apt-get clean
 
 EXPOSE 22 80
 
+# previous entrypoint.sh
+RUN /bin/mkdir /var/log/php5/
+RUN /bin/touch /var/log/php5/cli.log /var/log/php5/cgi.log
+RUN /bin/chown www-data:www-data /var/log/php5/*
+
 ADD entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
