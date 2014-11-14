@@ -1,6 +1,6 @@
 <?php
 
-class BlogController extends RESTController
+class PostController extends RESTController
 {
 	public function actionList()
 	{
