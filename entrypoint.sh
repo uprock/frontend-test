@@ -9,6 +9,6 @@ touch /var/log/php5/cli.log /var/log/php5/cgi.log
 chown www-data:www-data /var/log/php5/cli.log
 chown www-data:www-data /var/log/php5/cgi.log
 
-php /var/www/apps/admin/yii.py migrate --interactive=0
+php /var/www/apps/admin/yii.php migrate --interactive=0
 
 /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
