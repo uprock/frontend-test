@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER stenote stenote@163.com
+MAINTAINER adalekin dir@uprock.pro
 
 ENV DEBIAN_FRONTEND noninteractive
 
