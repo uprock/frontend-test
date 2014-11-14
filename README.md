@@ -23,7 +23,7 @@
 |GET /api/v1/post?{page}{limit}|получить список постов||
 |POST /api/v1/post|опубликовать пост|title, content, img|
 |GET /api/v1/comment|получить список комментариев ко всем постам||
-|POST /api/v1/comment|опубликовать комментарий|post_id, name, comment|
+|POST /api/v1/comment|опубликовать комментарий|blog_id, name, comment|
 
 ## Развертывание тестового окружения
 
